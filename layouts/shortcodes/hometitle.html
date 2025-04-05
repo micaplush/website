@@ -1,0 +1,10 @@
+{{ with resources.Get "images/blob.png" }}
+<h1 class="home-title">
+  Mica's website
+  <img
+    src="{{ .RelPermalink }}"
+    alt="Blob emoji holding a turtle"
+    title="This article is semi blob-protected"
+  />
+</h1>
+{{ end }}

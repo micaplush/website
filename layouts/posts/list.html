@@ -1,0 +1,55 @@
+{{ define "bodyattr" }}class="width-800"{{ end }}
+
+{{ define "page" }}
+<h1>Blog posts</h1>
+<nav><a href="/">&larr; Back to home</a></nav>
+<h2>Current</h2>
+<p>Articles I've written in this life.</p>
+<ul>
+  {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+<h2>Archive</h2>
+<p>Articles I've written in a previous life.</p>
+<ul>
+  <li>
+    <a href="https://tbx.at/posts/ephemeral-rootfs-corruption"
+      >NixOS: Avoiding filesystem corruption with hibernation and ephemeral
+      root</a
+    >
+  </li>
+  <li>
+    <a href="https://tbx.at/posts/lens-impressions"
+      ><del>To Lens or not to Lens?</del></a
+    >
+    &larr; This one is bad don't bother 😖
+  </li>
+  <li>
+    <a href="https://tbx.at/posts/filesystem-restore"
+      >Restoring my broken file system with Btrfs, NixOS and Restic</a
+    >
+  </li>
+</ul>
+
+<h2>External</h2>
+<p>Articles I've written for my previous employer, Symflower.</p>
+{{ with .Site.Data.extposts.symflower }}
+  {{ range . }}
+    {{ with .series }}
+      <h3>{{ . }}</h3>
+    {{ end }}
+    <ul>
+    {{ range .posts }}
+      <li>
+        <a href="{{ .url }}" rel="noopener noreferrer">{{ .title }}</a>
+        {{ with .archive }} (<a href="{{ . }}" rel="noopener noreferrer">archived</a>){{ end }}
+      </li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
+{{ end }}

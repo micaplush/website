@@ -1,0 +1,7 @@
+<ul>
+  {{ range .Site.Data.recommends }}
+  <li>
+    <a href="{{ .url }}" rel="noopener noreferrer">{{ .title }}</a>
+  </li>
+  {{ end }}
+</ul>

@@ -1,0 +1,202 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 2.5em;
+    padding: 0 1em;
+}
+
+body.width-800 {
+    max-width: 800px;
+}
+
+ul li {
+    margin: .5em 0;
+}
+
+nav {
+    font-style: italic;
+}
+
+nav.top-nav {
+    display: flex;
+    flex-direction: row;
+
+    .spacer {
+        flex-grow: 1;
+    }
+}
+
+h1 {
+    padding-bottom: .4em;
+    border-bottom: 1px solid gray;
+    font-size: 1.5em;
+}
+
+h1.home-title img {
+    float: right;
+    height: 1.4em;
+    border: none;
+    border-radius: 0;
+    filter: grayscale(1);
+}
+
+h1.home-title img:hover {
+    filter: none;
+}
+
+:is(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+}
+
+.highlight > pre {
+    padding: 1em;
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.highlight > pre, img, .sidenote {
+    border-radius: .5rem;
+    border: 1px solid #eee;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: start;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: .3em .5em;
+}
+
+.sidenote {
+    background-color: #f8f8f8;
+    border: 1px solid #F5A9B8;
+    padding: 0 1em;
+    margin: 1em 0;
+}
+
+footer {
+    font-style: italic;
+    margin: 1.5em 0;
+    border-top: 1px solid gray;
+}
+
+.wikipedia-box {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    color: black;
+    padding: 0.2em;
+    font-size: 85%;
+    line-height: 1.5em;
+    border-spacing: 3px;
+    margin-top: 1em;
+}
+
+.wikipedia-box p {
+    text-align: center;
+    margin: .2em;
+    margin-bottom: .4em;
+}
+
+.wikipedia-box .name {
+    font-weight: bold;
+    background-color: #f5abb9;
+}
+
+.wikipedia-box .image-centered {
+    width: 100%;
+    display: flex;
+}
+
+.wikipedia-box img {
+    margin: auto;
+    border-radius: 0;
+    border: none;
+}
+
+.wikipedia-box table {
+    border-collapse: default;
+    width: 100%;
+    margin: 0 .2em;
+}
+
+.wikipedia-box th {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    vertical-align: top;
+}
+
+.wikipedia-box th {
+    width: 40%;
+    text-align: start;
+}
+
+.wikipedia-box td, .wikipedia-box th {
+    border: none;
+    padding: 0;
+}
+
+.wikipedia-box th[colspan="2"] {
+    text-align: center;
+    padding-top: .4em;
+    padding-bottom: .2em;
+}
+
+.wikipedia-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wikipedia-box ul li {
+    margin: 0;
+}
+
+.enby {
+    display: flex;
+    flex-direction: row;
+    height: 1em;
+    margin: 1em;
+    margin-bottom: .5em;
+    border: 2px solid black;
+}
+
+.enby > * {
+    flex: 1;
+}
+
+.enby > :nth-child(1) {
+    background-color: #fff42f;
+}
+
+.enby > :nth-child(2) {
+    background-color: #ffffff;
+}
+
+.enby > :nth-child(3) {
+    background-color: #9c59d1;
+}
+
+.enby > :nth-child(4) {
+    background-color: #292929;
+}
+
+@media (min-width: 640px) {
+    .wikipedia-box {
+        margin: 0 0 0.5em 1em;
+        float: right;
+        clear: right;
+        width: 22em;
+    }
+}

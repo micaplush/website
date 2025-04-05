@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} &ndash; mica.lgbt{{ end }}</title>
+    {{ $style := resources.Get "css/style.scss" | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+  </head>
+  <body {{ block "bodyattr" . }}{{ end }}>
+    {{ block "page" . }}{{ end }}
+  </body>
+</html>

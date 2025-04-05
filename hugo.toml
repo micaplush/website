@@ -1,0 +1,9 @@
+baseURL = 'https://mica.lgbt/'
+languageCode = 'en-us'
+title = 'Mica (dot ell gee bee tee)'
+
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.highlight]
+    style = "emacs"

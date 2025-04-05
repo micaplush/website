@@ -1,0 +1,49 @@
+- posts:
+    - title: Rapidly write tests in IntelliJ IDEA and Goland with test templates
+      url: https://symflower.com/en/company/blog/2022/test-templates-in-intellij/
+      archive: https://web.archive.org/web/20250123220103/https://symflower.com/en/company/blog/2022/test-templates-in-intellij/
+    - title: How to make Angular use a relative path for your application
+      url: https://symflower.com/en/company/blog/2021/path-independent-angular/
+      archive: https://web.archive.org/web/20241207124802/https://symflower.com/en/company/blog/2021/path-independent-angular/
+
+- series: VS Code Extension Development series
+  posts:
+    - title: A more robust way to install VS Code for extension testing
+      url: https://symflower.com/en/company/blog/2023/vscode-test-installation/
+      archive: https://web.archive.org/web/20250123213557/https://symflower.com/en/company/blog/2023/vscode-test-installation/
+    - title: Modifying a VS Code installation in extension tests
+      url: https://symflower.com/en/company/blog/2023/vscode-test-install-extensions/
+      archive: https://web.archive.org/web/20241111025425/https://symflower.com/en/company/blog/2023/vscode-test-install-extensions/
+    - title: Timeout-based checks in VS Code extension tests
+      url: https://symflower.com/en/company/blog/2023/vscode-timeout-based-checks/
+      archive: https://web.archive.org/web/20241207113304/https://symflower.com/en/company/blog/2023/vscode-timeout-based-checks/
+    - title: "How to write VS Code extensions: guide & best practices"
+      url: https://symflower.com/en/company/blog/2023/vscode-extension-development/
+      archive: https://web.archive.org/web/20250123213640/https://symflower.com/en/company/blog/2023/vscode-extension-development/
+    - title: "LSP in VS Code: integrating a language server in a Visual Studio Code extension"
+      url: https://symflower.com/en/company/blog/2022/lsp-in-vscode-extension/
+      archive: https://web.archive.org/web/20240226043144/https://symflower.com/en/company/blog/2022/lsp-in-vscode-extension/
+    - title: Getting started with Visual Studio Code extension development
+      url: https://symflower.com/en/company/blog/2022/getting-started-with-visual-studio-code-extension-development/
+      archive: https://web.archive.org/web/20241114051242/https://symflower.com/en/company/blog/2022/getting-started-with-visual-studio-code-extension-development/
+
+- series: IntelliJ Plugin Development series
+  posts:
+    - title: A better X server setup for IntelliJ plugin tests locally and in your CI
+      url: https://symflower.com/en/company/blog/2023/intellij-x-server-setup/
+      archive: https://web.archive.org/web/20250123212537/https://symflower.com/en/company/blog/2023/intellij-x-server-setup/
+    - title: Testing IntelliJ plugins on Windows in your CI using GitLab Runner
+      url: https://symflower.com/en/company/blog/2023/intellij-testing-on-windows/
+      archive: https://web.archive.org/web/20241207120706/https://symflower.com/en/company/blog/2023/intellij-testing-on-windows/
+    - title: Isolating IntelliJ plugin tests using temporary project directories
+      url: https://symflower.com/en/company/blog/2023/intellij-temporary-project-directories/
+      archive: https://web.archive.org/web/20250123200056/https://symflower.com/en/company/blog/2023/intellij-temporary-project-directories/
+    - title: Accessing IntelliJ plugin classes in UI tests
+      url: https://symflower.com/en/company/blog/2023/intellij-plugin-classes-in-tests/
+      archive: https://web.archive.org/web/20250123210806/https://symflower.com/en/company/blog/2023/intellij-plugin-classes-in-tests/
+    - title: "Tutorial: all you need to know for IntelliJ plugin development"
+      url: https://symflower.com/en/company/blog/2023/intellij-plugin-development/
+      archive: https://web.archive.org/web/20241111030120/https://symflower.com/en/company/blog/2023/intellij-plugin-development/
+    - title: Getting started with plugin development for JetBrains IDEs like IntelliJ, Goland, and Android Studio
+      url: https://symflower.com/en/company/blog/2022/getting-started-with-intellij-plugin-development/
+      archive: https://web.archive.org/web/20250123204724/https://symflower.com/en/company/blog/2022/getting-started-with-intellij-plugin-development/
