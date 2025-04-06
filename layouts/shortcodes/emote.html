@@ -1,0 +1,8 @@
+{{ $name := .Get 0 }} {{ with resources.Get (printf "emotes/%s.png" $name) }}
+<img
+  src="{{ .RelPermalink }}"
+  alt="Emote named {{ $name }}"
+  title=":{{ $name }}:"
+  class="emote"
+/>
+{{ end }}
