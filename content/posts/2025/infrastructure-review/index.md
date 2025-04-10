@@ -1,5 +1,5 @@
 ---
-title: Potentially interesting stuff in my Nix-based homelab
+title: My Nix-based homelab monorepo
 date: 2025-04-10T00:00:00Z
 ---
 
