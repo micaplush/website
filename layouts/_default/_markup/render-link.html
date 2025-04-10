@@ -13,3 +13,4 @@
     {{ end -}}
 {{- end -}}
 <a href="{{ $link | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isRemote }} rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* chomp trailing newline */ -}}
