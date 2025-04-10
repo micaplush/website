@@ -1,6 +1,6 @@
 ---
 title: Potentially interesting stuff in my Nix-based homelab
-date: 2025-04-05T00:00:00Z
+date: 2025-04-10T00:00:00Z
 ---
 
 This article is the first in a series about stuff I've developed for my homelab.
