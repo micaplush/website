@@ -192,15 +192,15 @@ explained across subsequent posts to keep the amount of information in each post
 bite-sized.
 
 Truthfully, there haven't been any big developments in this project over the
-last few months. This is in part due to me being a bit burnt out with this
-project and life just also had unexpected other things for me in store.
+last few months. This is in part due to me needing a break from this project and
+life also had some other things for me in store.
 
 Also, let's just say 2024 wasn't exactly a year that strengthened my enthusiasm
 for Nix. I used to have a section commenting on the community controversies here
 but it felt off, so I removed it. I'm just gonna say I want Nix to be a
 radically welcoming space for marginalized groups in tech (like women, queer
-people, or neurodivergent folks, among others) and I'm hoping I can help move it
-into that direction at least a little bit.
+people, and neurodivergent folks, among others) and I'm hoping I can help move
+it into that direction at least a little bit.
 
 {{< emote "octotranspride" >}}
 
