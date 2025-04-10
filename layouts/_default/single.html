@@ -3,8 +3,11 @@
   <h1>{{ .Title }}</h1>
   <nav class="top-nav">
     <a href="/">&larr; Back to home</a>
+    <span class="spacer">
+      {{ if eq .Section "posts" }} {{ .WordCount }} words &CenterDot; {{
+      .ReadingTime }} minutes to read {{ end }}
+    </span>
     {{ with .Date }}
-    <span class="spacer"></span>
     <span>{{ time.Format ":date_medium" . }}</span>
     {{ end }}
   </nav>

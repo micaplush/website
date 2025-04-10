@@ -23,10 +23,14 @@ nav {
 
 nav.top-nav {
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
 
     .spacer {
         flex-grow: 1;
+        text-align: center;
     }
 }
 
