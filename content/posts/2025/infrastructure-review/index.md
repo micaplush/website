@@ -41,9 +41,9 @@ Essentially, the goal is to have:
   - This doesn't mean it shouldn't be possible to build things in isolation of
     course.
 
-Essentially, the goal is to have a single place to develop everything that
-allows me to tightly "glue stuff together" with Nix. And I think I'm part of the
-way there:
+Essentially, the goal is to have a single place to put all of my production
+software and glue it all together with Nix. And I think I'm part of the way
+there:
 
 - I have a monorepo and the software I've written over the last 1-2 years is
   pretty much all in there. (Except for completely separate things like this
@@ -192,8 +192,8 @@ explained across subsequent posts to keep the amount of information in each post
 bite-sized.
 
 Truthfully, there haven't been any big developments in this project over the
-last few months. This is in part due to me needing a break from this project and
-life also had some other things for me in store.
+last few months. This is in part due to me needing a break and life kinda just
+had other things for me in store.
 
 Also, let's just say 2024 wasn't exactly a year that strengthened my enthusiasm
 for Nix. I used to have a section commenting on the community controversies here
