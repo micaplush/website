@@ -1,4 +1,12 @@
-{{ define "bodyattr" }}class="width-800"{{ end }} {{ define "page" }}
+{{ define "head" }}
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="twitter:title" content="{{ .Title }}" />
+{{ with .Description }}
+<meta name="description" content="{{ . }}" />
+<meta property="og:description" content="{{ . }}" />
+<meta property="twitter:description" content="{{ . }}" />
+{{ end }} {{ end }} {{ define "bodyattr" }}class="width-800"{{ end }} {{ define
+"page" }}
 <article class="container">
   <h1>{{ .Title }}</h1>
   <nav class="top-nav">

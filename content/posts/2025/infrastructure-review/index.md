@@ -1,6 +1,8 @@
 ---
 title: My Nix-based homelab monorepo
 date: 2025-04-10T00:00:00Z
+description:
+  Stuff I've written to overengineer my homelab with NixOS over the years
 ---
 
 This article is the first in a series about stuff I've developed for my homelab.
