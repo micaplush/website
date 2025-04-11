@@ -187,11 +187,15 @@ might be worth documenting:
 
 ## Current status and what's next
 
-I'm currently working on publishing a sanitized version of my monorepo (removing
-encrypted secrets just to be extra-sure as well as some files that can't be
-included for copyright or other reasons). The structure of that repo will be
-explained across subsequent posts to keep the amount of information in each post
-bite-sized.
+~~I'm currently working on publishing a sanitized version of my monorepo
+(removing encrypted secrets just to be extra-sure as well as some files that
+can't be included for copyright or other reasons).~~
+
+The code is available to the public now, yipee! For now, just on GitHub:
+[micaplush/x](https://github.com/micaplush/x).
+
+The structure of that repo will be explained across subsequent posts to keep the
+amount of information in each post bite-sized.
 
 Truthfully, there haven't been any big developments in this project over the
 last few months. This is in part due to me needing a break and life kinda just
