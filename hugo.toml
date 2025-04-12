@@ -5,5 +5,7 @@ title = 'Mica (dot ell gee bee tee)'
 disableKinds = ["taxonomy", "term"]
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     style = "emacs"

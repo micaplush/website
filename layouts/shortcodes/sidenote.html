@@ -1,9 +1,1 @@
-<div class="sidenote">
-{{ $markdown := .Inner | markdownify }}
-
-{{ if not ( strings.Contains $markdown "<p>" ) }}
-    <p>{{ $markdown }}</p>
-{{ else }}
-    {{ $markdown }}
-{{ end }}
-</div>
+<div class="sidenote">{{ .Inner }}</div>

@@ -1,0 +1,20 @@
+{{ $name := .Get "reaction" }}
+{{ $markdown := .Inner | markdownify }}
+
+{{ with resources.Get (printf "octo-reaction/%s.jpg" $name) }}
+<div class="reaction-text">
+  <img
+    src="{{ .RelPermalink }}"
+    alt="Emote named {{ $name }}"
+    title=":{{ $name }}:"
+    class="reaction"
+  />
+  <div class="text">
+{{ if not ( strings.Contains $markdown "<p>" ) }}
+<p>{{ $markdown }}</p>
+{{ else }}
+{{ $markdown }}
+{{ end }}
+  </div>
+</div>
+{{ end }}

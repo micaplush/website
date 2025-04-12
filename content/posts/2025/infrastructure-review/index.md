@@ -15,12 +15,16 @@ the end I'll touch on the status quo of the project.
 
 {{< sidenote >}}
 
+{{< reactiontext reaction="intrigued/c0f5" >}}
+
 Side note: When I say braindump I mean it. I hope it'll be comprehensible enough
 to outsiders to be useful but if not I appreciate any feedback.
 
 Other side note: This kind of box is for **side notes**. It can be freely
 ignored while skimming but it might have some useful context or witty
 commentary.
+
+{{</ reactiontext >}}
 
 {{</ sidenote >}}
 

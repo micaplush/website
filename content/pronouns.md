@@ -22,15 +22,27 @@ I'm also cool with "she/her" though. 😊
 
 {{< sidenote >}}
 
+{{< reactiontext reaction="angy/3a64" >}}
+
 I haaaate this language. I hate it so muuuuch.
 
+{{</ reactiontext >}}
+
+{{< reactiontext reaction="annoyed/0786" >}}
+
 (I'm allowed to say this, I'm a native speaker.)
+
+{{</ reactiontext >}}
+
+{{< reactiontext reaction="annoyed/e5c0" >}}
 
 Not only is there no good way to address enby and otherwise gender
 non-conforming folks in German, efforts to make the language more gender-neutral
 also make conservatives _lose their minds_ for some reason.
 
 It would be great if gender just wasn't as pervasive as it is in this language.
+
+{{</ reactiontext >}}
 
 {{</ sidenote >}}
 

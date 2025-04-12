@@ -81,6 +81,35 @@ img.emote {
     vertical-align: baseline;
 }
 
+.reaction-text {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+
+    .reaction {
+        border-radius: 0;
+        border: none;
+        height: 4rem;
+        width: 4rem;
+        vertical-align: baseline;
+        border-radius: .5rem;
+    }
+
+    .text {
+        flex-grow: 1;
+        margin-left: 1em;
+        align-self: center;
+
+        > :first-child {
+            margin-top: 0;
+        }
+
+        > :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
 table {
     border-collapse: collapse;
 }
