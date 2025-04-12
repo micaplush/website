@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     font-size: 16px;
@@ -10,7 +14,13 @@ body {
 }
 
 body.width-800 {
-    max-width: 800px;
+    h1, h2, h3, h4, h5, p, nav, ul, ol, .table-wrapper, footer {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    max-width: 900px;
 }
 
 ul li {

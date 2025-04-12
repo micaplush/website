@@ -212,7 +212,7 @@ radically welcoming space for marginalized groups in tech (like women, queer
 people, and neurodivergent folks, among others) and I'm hoping I can help move
 it into that direction at least a little bit.
 
-{{< emote "octotranspride" >}}
+{{< paragraph >}} {{< emote "octotranspride" >}} {{</ paragraph >}}
 
 If you're interested in anything I've described in this post, I'd be thrilled to
 hear from you! Right now I don't have concrete plans to split anything out of my
