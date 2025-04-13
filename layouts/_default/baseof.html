@@ -6,6 +6,7 @@
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} &ndash; mica.lgbt{{ end }}</title>
     {{ $style := resources.Get "css/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    <link rel="me" href="https://ohai.social/@mica">
     {{ block "head" . }}{{end}}
   </head>
   <body {{ block "bodyattr" . }}{{ end }}>
