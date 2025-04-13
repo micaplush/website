@@ -104,6 +104,9 @@ evaluation but I trust in the future of Tvix (or better evaluation caching).
 
 ### Agenix secrets generation
 
+_This has its own article now:
+{{< titlelink "/posts/2025/agenix-secrets-generator" >}}._
+
 Secrets (when using agenix or a similar tool) are normally opaque blobs that you
 commit into your repository and hopefully document how to recreate. I've
 completely automated that. (Almost) all of my secrets have a declarative
