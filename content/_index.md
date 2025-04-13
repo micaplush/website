@@ -31,6 +31,11 @@ respecting my [pronouns](/pronouns) when you do! Oh, and I was also
 peer-pressured into signing up for Matrix: @hmica:matrix.org. And the Fediverse:
 [@mica@ohai.social](https://ohai.social/@mica).
 
+This site collects aggregate statistics using GoatCounter. You can see exactly
+what I'm seeing at [mica.goatcounter.com](https://mica.goatcounter.com) or learn
+more about GoatCounter's approach from their
+[docs](https://www.goatcounter.com/help/sessions).
+
 ## Actually cool sites
 
 To make your visit worth the time, here are some cool blogs that I can recommend
