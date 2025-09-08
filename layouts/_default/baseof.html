@@ -6,7 +6,7 @@
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} &ndash; mica.lgbt{{ end }}</title>
     {{ $style := resources.Get "css/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
-    <link rel="me" href="https://ohai.social/@mica">
+    <link rel="me" href="https://mk.absturztau.be/@mica">
     {{ if hugo.IsProduction }}<script data-goatcounter="https://mica.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>{{ end }}
     {{ block "head" . }}{{end}}
   </head>
