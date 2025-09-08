@@ -27,18 +27,16 @@ broken links on the internet):
 - [Restoring my broken file system with Btrfs, NixOS and Restic](https://tbx.at/posts/filesystem-restore)
 
 You can email me at [hatsune@mica.lgbt](mailto:hatsune@mica.lgbt). Thanks for
-respecting my [pronouns](/pronouns) when you do! Oh, and I was also
-peer-pressured into signing up for Matrix: @hmica:matrix.org. And the Fediverse:
-[@mica@ohai.social](https://ohai.social/@mica).
+respecting my [pronouns](/pronouns) when you do! I'm also on Fedi:
+[@mica@mk.absturztau.be](https://mk.absturztau.be/@mica).
 
 This site collects aggregate statistics using GoatCounter. You can see exactly
 what I'm seeing at [mica.goatcounter.com](https://mica.goatcounter.com) or learn
 more about GoatCounter's approach from their
 [docs](https://www.goatcounter.com/help/sessions).
 
-## Actually cool sites
+## Other cool sites
 
-To make your visit worth the time, here are some cool blogs that I can recommend
-you check out:
+These are some sites that I enjoy, in no particular order:
 
 {{< recommends >}}
