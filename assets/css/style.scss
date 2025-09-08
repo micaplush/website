@@ -78,6 +78,24 @@ img.markdown-image {
     margin-right: auto;
 }
 
+figure {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > img {
+        flex-grow: 0;
+    }
+
+    & > figcaption {
+        font-style: italic;
+    }
+}
+
 .highlight > pre, img, .sidenote {
     border-radius: .5rem;
     border: 1px solid #eee;
