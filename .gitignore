@@ -6,3 +6,6 @@ hugo_stats.json
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# I'm using Obsidian to edit things sometimes
+/.obsidian
