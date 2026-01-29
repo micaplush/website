@@ -26,8 +26,9 @@ broken links on the internet):
 - [NixOS: Avoiding filesystem corruption with hibernation and ephemeral root](https://tbx.at/posts/ephemeral-rootfs-corruption)
 - [Restoring my broken file system with Btrfs, NixOS and Restic](https://tbx.at/posts/filesystem-restore)
 
-You can email me at [hatsune@mica.lgbt](mailto:hatsune@mica.lgbt). Thanks for
-respecting my [pronouns](/pronouns) when you do! I'm also on Fedi:
+You can email me at [hatsune@mica.lgbt](mailto:hatsune@mica.lgbt). I have a
+detailed page on [pronouns](/pronouns) I use in different languages but it boils
+down to "they/she". I'm also on fedi at
 [@mica@mk.absturztau.be](https://mk.absturztau.be/@mica).
 
 This site collects aggregate statistics using GoatCounter. You can see exactly
