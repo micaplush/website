@@ -156,4 +156,18 @@ actual values determined by the Alpstuga and the AirGradient.
 | CO<sub>2</sub>   | 496-828.2ppm   | 523-637ppm     | ✅                       |
 | PM<sub>2.5</sub> | 10.8-13.2μg/m³ | 10.1-30.1μg/m³ | ✅                       |
 
+## The next day (17:15)
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 593ppm         | 15μg/m³          | 21.0      | 29%           |
+| AirGradient | 495ppm         | 10.8μg/m³        | 22.8      | 26.8%         |
+
+Still in agreement.
+
+| Sensor           | Range Alp.     | Range AG      | Aggreement within error? |
+| ---------------- | -------------- | ------------- | ------------------------ |
+| CO<sub>2</sub>   | 434-752ppm     | 523-637ppm    | ✅                       |
+| PM<sub>2.5</sub> | 13.5-16.5μg/m³ | 0.8-20.8μg/m³ | ✅                       |
+
 _I'll be updating this post as I capture more readings._
