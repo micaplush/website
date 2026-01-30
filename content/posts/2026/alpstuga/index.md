@@ -170,4 +170,64 @@ Still in agreement.
 | CO<sub>2</sub>   | 434-752ppm     | 523-637ppm    | ✅                       |
 | PM<sub>2.5</sub> | 13.5-16.5μg/m³ | 0.8-20.8μg/m³ | ✅                       |
 
+## After airing the room out (17:39)
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 423ppm         | 16μg/m³          | 14.9      | 37%           |
+| AirGradient | 443ppm         | 9.2μg/m³         | 18.5      | 30.6%         |
+
+<p></p>
+
+| Sensor           | Range Alp.     | Range AG    | Aggreement within error? |
+| ---------------- | -------------- | ----------- | ------------------------ |
+| CO<sub>2</sub>   | 281-565ppm     | 390-496ppm  | ✅                       |
+| PM<sub>2.5</sub> | 14.4-17.6μg/m³ | 0-19.2μg/m³ | ✅                       |
+
+## 19:18
+
+This one is noteworthy because the sensors actually disagreed for the first time
+after calibration.
+
+The Alpstuga had people sitting and talking around it at approximately this time
+but the discrepancy is still somewhat extreme.
+
+Another possible explanation is that the AirGradient metrics are actually an
+average over time and the CO<sub>2</sub> content has increased in a relatively
+short timespan. I haven't checked how the AirGradient's numbers are processed in
+the dashboard I took them from.
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 929ppm         | 9μg/m³           | 19.9      | 33%           |
+| AirGradient | 644ppm         | 5.8μg/m³         | 21.7      | 29.9%         |
+
+<p></p>
+
+| Sensor           | Range Alp.    | Range AG    | Aggreement within error? |
+| ---------------- | ------------- | ----------- | ------------------------ |
+| CO<sub>2</sub>   | 736-1122ppm   | 584-703ppm  | ❌                       |
+| PM<sub>2.5</sub> | 8.1-10.9μg/m³ | 0-15.8μg/m³ | ✅                       |
+
+The AirGradient's concentration did increase by about 260ppm just a few minutes
+afterwards, so badly mixed air or a running average sound plausible.
+
+![A graph showing that the AirGradient's measured CO2 concentration at 19:16:44 was 636ppm. The graph extends from 17:00, where the concentration starts dipping to around 400ppm to almost 21:00 where the concentration is at 905ppm. There's a large peak shortly after 20:00.](./ag-stats-1.png)
+
+![The same graph with a different time highlighted to make the value visible. The time highlighted is 19:24:44 and the CO2 reading at that time was 790ppm.](./ag-stats-2.png)
+
+## 20:06
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 1014ppm        | 9μg/m³           | 21.6      | 31%           |
+| AirGradient | 892ppm         | 18.2μg/m³        | 23.1      | 29.8%         |
+
+<p></p>
+
+| Sensor           | Range Alp.    | Range AG      | Aggreement within error? |
+| ---------------- | ------------- | ------------- | ------------------------ |
+| CO<sub>2</sub>   | 813-1215ppm   | 825-959ppm    | ✅                       |
+| PM<sub>2.5</sub> | 8.1-10.9μg/m³ | 8.2-28.2μg/m³ | ✅                       |
+
 _I'll be updating this post as I capture more readings._
