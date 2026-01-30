@@ -134,5 +134,26 @@ maybe that upset it.
 
 This was the last reading I took before leaving for the day.
 
-_I'll be leaving this plugged in and I'll check back against it tomorrow. If all
-goes well, we'll have data from a fully calibrated device by then._
+## The next day (15:10, about 15 hours after the last reading)
+
+As far as I know, the Alpstuga was powered overnight, so this is the first
+reading after the 12-hour calibration period. The readings of its CO<sub>2</sub>
+sensor can now be considered valid.
+
+The Alpstuga seems to be reading CO<sub>2</sub> levels above the AirGradient's
+measured concentration now.
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 662ppm         | 12μg/m³          | 20.7      | 31%           |
+| AirGradient | 580ppm         | 20.1μg/m³        | 23.4      | 28.1%         |
+
+When adjusted for margin of error, there is now again an overlap in possible
+actual values determined by the Alpstuga and the AirGradient.
+
+| Sensor           | Range Alp.     | Range AG       | Aggreement within error? |
+| ---------------- | -------------- | -------------- | ------------------------ |
+| CO<sub>2</sub>   | 496-828.2ppm   | 523-637ppm     | ✅                       |
+| PM<sub>2.5</sub> | 10.8-13.2μg/m³ | 10.1-30.1μg/m³ | ✅                       |
+
+_I'll be updating this post as I capture more readings._
