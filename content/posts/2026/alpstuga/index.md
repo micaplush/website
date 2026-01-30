@@ -114,4 +114,25 @@ Funnily enough it lost its clock settings.
 It remains to be seen how the Alpstuga holds up after its calibration is
 officially done.
 
-_I'll be leaving this plugged in and check back against it tomorrow._
+## Three and a half hours in
+
+The CO<sub>2</sub> measurements are in disagreement again.
+
+| Device      | CO<sub>2</sub> | PM<sub>2.5</sub> | Temp (°C) | Rel. Humidity |
+| ----------- | -------------- | ---------------- | --------- | ------------- |
+| Alpstuga    | 424ppm         | 4μg/m³           | 21.0      | 33%           |
+| AirGradient | 630ppm         | 0.5μg/m³         | 22.6      | 31.5%         |
+
+It was fluctuating a bit around this time but 420-ish ppm seemed to be the
+"baseline" it usually returned to. I've moved the Alpstuga around a little bit,
+maybe that upset it.
+
+| Sensor           | Range Alp.   | Range AG    | Aggreement within error? |
+| ---------------- | ------------ | ----------- | ------------------------ |
+| CO<sub>2</sub>   | 282-566ppm   | 571-689ppm  | ❌                       |
+| PM<sub>2.5</sub> | 3.6-4.4μg/m³ | 0-10.5μg/m³ | ✅                       |
+
+This was the last reading I took before leaving for the day.
+
+_I'll be leaving this plugged in and I'll check back against it tomorrow. If all
+goes well, we'll have data from a fully calibrated device by then._
