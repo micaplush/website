@@ -263,6 +263,12 @@ footer {
     background-color: #292929;
 }
 
+.button-88x31 {
+    border-radius: 0!important;
+    image-rendering: pixelated;
+    border: none!important;
+}
+
 @media (min-width: 640px) {
     .wikipedia-box {
         margin: 0 0 0.5em 1em;

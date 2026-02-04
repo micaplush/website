@@ -36,6 +36,14 @@ what I'm seeing at [mica.goatcounter.com](https://mica.goatcounter.com) or learn
 more about GoatCounter's approach from their
 [docs](https://www.goatcounter.com/help/sessions).
 
+## Buttons
+
+{{< 88x31 "nonbinary-antifa" >}} {{< 88x31 "mica-now" >}}
+
+Feel free to link to this site using one of those buttons!
+
+Want your site linked here? Maybe even with a button? Contact me!
+
 ## Other cool sites
 
 These are some sites that I enjoy, in no particular order:
