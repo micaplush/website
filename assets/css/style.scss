@@ -69,6 +69,7 @@ h1.home-title img:hover {
     padding: 1em;
     font-size: 14px;
     overflow-x: auto;
+    background-color: var(--td-pre-bg) !important;
 }
 
 img.markdown-image {
@@ -98,6 +99,9 @@ figure {
 
 .highlight > pre, img, .sidenote {
     border-radius: .5rem;
+}
+
+.highlight > pre, img {
     border: 1px solid #eee;
 }
 
@@ -275,5 +279,49 @@ footer {
         float: right;
         clear: right;
         width: 22em;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #101418;
+        color: rgb(234, 236, 240);
+    }
+
+    a {
+        color: #88a3e8;
+    }
+
+    a:hover {
+        color: #a6bbf5;
+    }
+
+    a:active {
+        color: #b6d4fb;
+    }
+
+    a:visited {
+        color: #a086ce;
+    }
+
+    th, td {
+        border: 1px solid #a2a9b1;
+    }
+
+    .wikipedia-box {
+        background-color: #202122;
+        color: rgb(234, 236, 240);
+
+        .name {
+            color: black;
+        }
+    }
+
+    .sidenote {
+        background-color: #202122;
+    }
+
+    .highlight > pre, img {
+        border: 1px solid #666;
     }
 }
