@@ -14,7 +14,7 @@ buuuut I'm pretty bad at writing about what I do if I'm not forced to do it.
 (Neurodivergence might have something to do with it.) I'm trying to get better
 at it (again).
 
-Here are some recent posts:
+Here are some **recent posts:**
 
 {{< top3 >}}
 
@@ -48,6 +48,7 @@ Want your site linked here? Maybe even with a button? Contact me!
 
 ## Other cool sites
 
-These are some sites that I enjoy, in no particular order:
+These are some sites that I think are cool but am not affiliated with, in no
+particular order:
 
 {{< recommends >}}
