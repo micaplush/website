@@ -273,6 +273,19 @@ footer {
     border: none!important;
 }
 
+.inline-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+
+    figure {
+        margin: 0;
+        align-items: unset;
+    }
+}
+
 @media (min-width: 640px) {
     .wikipedia-box {
         margin: 0 0 0.5em 1em;

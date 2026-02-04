@@ -212,9 +212,13 @@ the dashboard I took them from.
 The AirGradient's concentration did increase by about 260ppm just a few minutes
 afterwards, so badly mixed air or a running average sound plausible.
 
-![A graph showing that the AirGradient's measured CO2 concentration at 19:16:44 was 636ppm. The graph extends from 17:00, where the concentration starts dipping to around 400ppm to almost 21:00 where the concentration is at 905ppm. There's a large peak shortly after 20:00.](./ag-stats-1.png)
+{{< inlineimgs >}}
 
-![The same graph with a different time highlighted to make the value visible. The time highlighted is 19:24:44 and the CO2 reading at that time was 790ppm.](./ag-stats-2.png)
+{{< figure src="./ag-stats-1.png" alt="A graph showing that the AirGradient's measured CO2 concentration at 19:16:44 was 636ppm. The graph extends from 17:00, where the concentration starts dipping to around 400ppm to almost 21:00 where the concentration is at 905ppm. There's a large peak shortly after 20:00." >}}
+
+{{< figure src="./ag-stats-2.png" alt="The same graph with a different time highlighted to make the value visible. The time highlighted is 19:24:44 and the CO2 reading at that time was 790ppm." >}}
+
+{{</ inlineimgs >}}
 
 ## 20:06
 
