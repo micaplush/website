@@ -1,4 +1,10 @@
 {{ $name := .Get 0 }} {{ $data := index .Site.Data.button88x31 $name }} {{ with
 resources.Get (printf "images/88x31/%s.gif" $name) }}
-<img src="{{ .RelPermalink }}" class="button-88x31" alt="{{ $data.alt }}" />
+<img
+  src="{{ .RelPermalink }}"
+  class="button-88x31"
+  alt="{{ $data.alt }}"
+  width="{{ .Width }}"
+  height="{{ .Height }}"
+/>
 {{ end }}
