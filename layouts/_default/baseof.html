@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} &ndash; mica.lgbt{{ end }}</title>
-    {{ $style := resources.Get "css/style.scss" | toCSS | minify }}
+    {{ $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
     {{ $favicon := resources.Get "favicon/leek-enby.png" | fingerprint }}
     <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}" type="image/png">
