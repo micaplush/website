@@ -6,6 +6,8 @@
     <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} &ndash; mica.lgbt{{ end }}</title>
     {{ $style := resources.Get "css/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    {{ $favicon := resources.Get "favicon/leek-enby.png" | fingerprint }}
+    <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}" type="image/png">
     <link rel="me" href="https://mk.absturztau.be/@mica">
     {{ if hugo.IsProduction }}<script data-goatcounter="https://mica.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>{{ end }}
     {{ block "head" . }}{{end}}
