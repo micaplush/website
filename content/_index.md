@@ -40,7 +40,9 @@ more about GoatCounter's approach from their
 
 {{< 88x31 "nonbinary-antifa" >}} {{< 88x31 "mica-now" >}}
 
-Feel free to link to this site using one of those buttons!
+Feel free to link to this site using one of those buttons! Read
+[my blog post on it](/posts/2026/88x31) for additional variations of these
+buttons.
 
 Want your site linked here? Maybe even with a button? Contact me!
 
