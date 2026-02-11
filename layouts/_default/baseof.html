@@ -10,6 +10,7 @@
     {{ $favicon := resources.Get "favicon/leek-enby.png" | fingerprint }}
     <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}" type="image/png">
     <link rel="me" href="https://mk.absturztau.be/@mica">
+    <meta name="fediverse:creator" content="mica@mk.absturztau.be" />
     {{ if hugo.IsProduction }}<script data-goatcounter="https://mica.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>{{ end }}
     {{ block "head" . }}{{end}}
   </head>
