@@ -9,3 +9,8 @@ disableKinds = ["taxonomy", "term"]
     unsafe = true
   [markup.highlight]
     style = "emacs"
+
+[minify]
+    [minify.tdewolff]
+        [minify.tdewolff.html]
+            keepComments = true
