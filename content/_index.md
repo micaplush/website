@@ -38,3 +38,26 @@ Feel free to link to this site using one of those buttons! Read
 buttons.
 
 Want your site linked here? Maybe even with a button? Contact me!
+
+## Media recommendations
+
+My YouTube consumption has somehow become very minimal but I always enjoy
+watching
+[Technology Connections](https://www.youtube.com/@TechnologyConnections).
+
+Can we have Plutonium? We have
+[Plutonium at home](https://www.youtube.com/watch?v=P_ooEuOnNB8).
+
+This is a pretty cool artist: [Valerie Halla](https://valerie-halla.itch.io/).
+
+My music taste is all over the place but I enjoy listening to Ikkimel, Venjent,
+Femtanyl, and bbno$, as well as the soundtracks of Celeste and the Splatoon
+games, and occasionally psytrance.
+
+The Splatoon games each have their own unique sound and it's impossible to rank
+them without disregarding something one game has over the others. In terms of
+listening preference, I most often listen to songs from these games now:
+
+- Splatoon 2: Octo Expansion
+- Splatoon 3: Side Order
+- Splatoon 3: Return of the Mammalians
