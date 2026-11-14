@@ -26,6 +26,10 @@ ul li {
     margin: .5em 0;
 }
 
+del {
+    text-decoration: rgba($color: rgb(255, 117, 156), $alpha: .9) 3px line-through;
+}
+
 nav {
     font-style: italic;
 }
