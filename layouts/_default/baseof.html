@@ -12,9 +12,39 @@
     <link rel="me" href="https://mk.absturztau.be/@mica">
     <meta name="fediverse:creator" content="mica@mk.absturztau.be" />
     {{ if hugo.IsProduction }}<script data-goatcounter="https://mica.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>{{ end }}
+    <link rel="stylesheet" href="/dist/slopstrap.css" />
+    <script src="/dist/slopstrap.js"></script>
     {{ block "head" . }}{{end}}
   </head>
   <body {{ block "bodyattr" . }}{{ end }}>
     {{ block "page" . }}{{ end }}
+    <script>
+      function onSlopButtonClick(evt) {
+        const slopified = localStorage.getItem("slopified") === "true"
+        if (slopified) {
+          Slopstrap.unslopify("body")
+          localStorage.removeItem("slopified")
+          initSlopButton()
+        } else {
+          const slopButton = evt.currentTarget
+          Slopstrap.sparkleBurst(slopButton.offsetLeft + slopButton.clientWidth / 2, slopButton.offsetTop + slopButton.clientHeight / 2, 16)
+          Slopstrap.slopify("body")
+          localStorage.setItem("slopified", "true")
+        }
+      }
+
+      function initSlopButton() {
+        const slopButton = document.getElementById("slopbutton")
+        if (slopButton) {
+          slopButton.removeEventListener("click", onSlopButtonClick)
+          slopButton.addEventListener("click", onSlopButtonClick)
+        }
+      }
+
+      initSlopButton()
+      if (localStorage.getItem("slopified") === "true") {
+        Slopstrap.slopify("body")
+      }
+    </script>
   </body>
 </html>
